@@ -65,7 +65,7 @@ Feature 1 needs no API key at all.
 
 ---
 
-## Completed vs. skipped
+## Completed
 
 **Completed:** everything in the brief — both endpoints, all three AEO checks with the exact scoring tables, score bands, LLM fan-out with retries/backoff/corrective re-prompting, per-item Pydantic validation of LLM output, semantic gap analysis with normalized embeddings, the 422/503 error envelopes, 59 offline tests (including the mocked-LLM bonus tests), and PROMPT_LOG.md.
 
