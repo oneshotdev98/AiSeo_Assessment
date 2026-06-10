@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+httpx
+beautifulsoup4
+spacy
+textstat
+sentence-transformers==3.4.1
+transformers==4.49.0     # newer transformers require torch>=2.4; see torch note below
+torch>=2.2               # 2.2.2 is the last wheel for Intel macOS; any newer is fine elsewhere
+numpy<2                  # torch 2.2.x is incompatible with numpy 2
+google-generativeai      # Gemini provider
+openai                   # OpenAI provider
+pydantic>=2.0
+pytest
+pytest-asyncio
+python-dotenv
